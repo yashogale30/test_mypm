@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { body { @apply bg-slate-50 text-slate-900; } input, textarea { @apply w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100; } textarea { @apply resize-y; } button { @apply rounded-md font-medium transition disabled:cursor-not-allowed disabled:opacity-60; } }
